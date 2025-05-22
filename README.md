@@ -67,3 +67,5 @@ You can customize the behavior of ASC-Hook by modifying these functions to imple
 For most applications, ASC-Hook does not require signal-based interception.  
 However, if you encounter a situation where it is necessary, you may need to modify the configuration file to enable the completeness policy.
 See [Document/Completeness.pdf](./Document/Completeness.pdf) for more details.
+
+Additionally, the MPI-based BFS program we developed (used as a benchmark), along with its data generator, is provided in the `test` directory. Feel free to check it out if needed.
