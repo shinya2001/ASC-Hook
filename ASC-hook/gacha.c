@@ -418,7 +418,7 @@ static void pre_prepare(void)
 	fclose(fp);
 }
 
-__attribute__((constructor(0xffff))) static void __zpoline_init(void)
+__attribute__((constructor(0xffff))) static void __ASC_hook_init(void)
 {
 	readSwitch();// This sets whether to enable the security feature; it is disabled by default on the syscallSwitch.config file.
 	
